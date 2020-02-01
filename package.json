@@ -10,8 +10,10 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-wasm.rs": "^1.2.15",
     "push-dir": "^0.4.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "wasm-pack": "^0.9.0"
   },
   "dependencies": {
     "react": "^16.0.0",
