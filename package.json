@@ -8,13 +8,12 @@
     "build": "parcel build index.html --public-url /eratosthenes/",
     "deploy": "push-dir --dir ./dist --branch master"
   },
+	"dependencies": {
+		"solid-js": "^1.9.7"
+	},
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "push-dir": "^0.4.1",
     "typescript": "^3.7.5"
-  },
-  "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.12.0"
   }
 }
