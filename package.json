@@ -1,18 +1,20 @@
 {
   "name": "eratosthenes",
+  "type": "module",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /eratosthenes/",
+	  "dev": "rsbuild dev",
     "deploy": "push-dir --dir ./dist --branch master"
   },
   "dependencies": {
     "solid-js": "^1.9.7"
   },
   "devDependencies": {
-    "parcel": "^2.15.4",
+    "@rsbuild/core": "^1.4.7",
+    "@rsbuild/plugin-babel": "^1.0.5",
+    "@rsbuild/plugin-solid": "^1.0.5",
     "push-dir": "^0.4.1",
     "typescript": "^3.9.10"
   }
