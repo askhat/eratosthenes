@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
 	  "dev": "rsbuild dev",
-    "deploy": "push-dir --dir ./dist --branch master"
+    "deploy": "push-dir --dir ./dist --branch dev"
   },
   "dependencies": {
     "solid-js": "^1.9.7"
